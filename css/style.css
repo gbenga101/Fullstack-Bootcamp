@@ -1,0 +1,34 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+    body{
+    background-color: #eaf6f6;
+    font-family: cursive;
+
+}
+h3, h1{
+    color: rgb(37, 209, 231);
+}
+
+li {
+    display: inline;
+    padding: 0 15px;
+}
+a:hover{
+    color: rgb(37, 209, 231);
+}
+.container{
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.content li a img{
+    width: 130px;
+    height: 100px;
+}
+.Gbenga{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
