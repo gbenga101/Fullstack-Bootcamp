@@ -11,9 +11,16 @@ h3, h1{
     color: rgb(37, 209, 231);
 }
 
-li {
+header nav ul li {
     display: inline;
     padding: 0 15px;
+}
+hr{
+    border: 2px 0 0 0;
+    border-style: dotted;
+
+    width: 80px;
+
 }
 a:hover{
     color: rgb(37, 209, 231);
@@ -22,9 +29,14 @@ a:hover{
     margin-top: 20px;
     padding: 0 10px;
 }
+.content li{
+    text-align: center;
+    display: inline;
+    padding: 0 10px;
+}
 .content li a img{
-    width: 130px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
 }
 .Gbenga{
     width: 200px;

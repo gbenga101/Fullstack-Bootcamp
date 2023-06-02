@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <style>
+    </style>
+</head>
+<body>
+    <!--facebook form trial-->
+    <form>
+        <div class="facebook-form">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Email or Phone</td>
+                        <td>Password</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="password"></td>
+                        <td><input type="button" value="Log In" class="btn"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="login" id="login"> Keep me logged in</td>
+                        <td><a href="#" class="log">Forget your password?</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </form>
+<br><br>
+        <!--html regidtrstion form-->
+        <h1>Registeration Form</h1>
+        <form>
+            <!--label and input for firstname & lastname-->
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="enter firstname" required>
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="enter lastname" required>
+        </div>
+            <!--label and input for gender-->
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+        </div>
+            <!--label and input for email & password-->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="your password" minlength="5" max="10" required>
+        </div>    
+            <!--label and input for Birthday with 3 select tags-->
+        <div>
+            <label for="birthday">Birthday:</label>
+            <select name="month" id="birthday">
+                <option value="month">Month</option>
+                <option value="january">Jan</option>
+                <option value="february">Feb</option>
+                <option value="march">Mar</option>
+                <option value="april">Apr</option>
+                <option value="may">May</option>
+                <option value="june">Jun</option>
+                <option value="july">Jul</option>
+                <option value="august">Aug</option>
+                <option value="september">Sep</option>
+                <option value="october">Oct</option>
+                <option value="november">Nov</option>
+                <option value="december">Dec</option>
+            </select>
+            <select name="day" id="birthday">
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select name="year" id="birthday">
+                <option>Year</option>
+                <option>2025</option>
+                <option>2024</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>
+                <option>2006</option>
+                <option>2005</option>
+                <option>2004</option>
+                <option>2003</option>
+                <option>2002</option>
+                <option>2002</option>
+                <option>2001</option>
+                <option>2000</option>
+                <option>1999</option>
+                <option>1998</option>
+                <option>1997</option>
+                <option>1996</option>
+            </select>
+        </div>
+        <!--label for agreement condotion--> 
+        <div>
+            <label for="agreement">I agree to the terms and conditions</label>
+            <input type="checkbox" name="yes" id="agreement" required><br>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+        <div>
+            <h1>Todo List</h1>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="todoList" checked> 
+                        Exercise daily
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="todoList" checked> 
+                        Buy Groceries
+                    </label>
+                </li>
+                <li  id="tList">
+                    <label>
+                        <input type="checkbox" name="todoList"> 
+                        Finish 100 days coding challenge
+                    </label>
+                </li>
+            </ul>
+        </div>
+</body>
+</html

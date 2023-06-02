@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    height: 400px;
+}
+img:hover{
+    border-radius: 25px;
+}
+p{
+    margin: 1.66%;
+    font-family: raleway;
+    font-size: 1.4em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 70%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+span{
+    font-weight: 800;
+}
