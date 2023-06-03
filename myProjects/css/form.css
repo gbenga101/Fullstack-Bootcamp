@@ -1,18 +1,34 @@
+*{
+    font-family: cursive;
+}
 .facebook-form{
     background-color: rgb(47, 44, 216);
     color: whitesmoke;
     margin: 0px;
-    padding: 20px 0.5px;
+    padding: 20px 10px;
 }
 .btn{
     background-color: rgb(47, 44, 216);
     color: antiquewhite;
     border-color: rgb(47, 44, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    font-weight: bold;
 }
 .log{
     background-color: rgb(47, 44, 216);
     color: antiquewhite;
     text-decoration: none;
+}
+form{
+    padding: 5px ;
+}
+.form{
+    padding: 5px 10px;
+}
+.sectab{
+    padding: 0 30px;
 }
 select[name="month"], [name="day"], [name="year"]{
     background-color: black;
